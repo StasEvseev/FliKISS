@@ -10,7 +10,7 @@
     based on flat files written in Markdown
 """
 
-__author__ = u'TROUVERIE Joachim'
+__author__ = u'Stas Evseev'
 
 import os
 import os.path as op
@@ -26,7 +26,7 @@ def create_app(config=None):
        :param config: Config file path
     """
     # create app
-    app = Flask(__name__)
+    app = Flask(__name__, static_url_path='/wiki/static')
     # default config
     app.config.from_pyfile('config.py')
     # update config

@@ -7,7 +7,7 @@
     ~~~~~~~~~~~~~~~~~~~~~
 """
 
-__author__ = u'TROUVERIE Joachim'
+__author__ = u'Stas Evseev'
 
 from wtforms import PasswordField, TextAreaField
 from flask.ext.wtf import Form

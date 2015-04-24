@@ -7,7 +7,7 @@
     ~~~~~~~~~~~~~~~~~~~~~
 """
 
-__author__ = u'TROUVERIE Joachim'
+__author__ = u'Stas Evseev'
 
 
 import os.path as op
@@ -21,7 +21,7 @@ from flikiss.utils import render_markdown
 from flikiss.login import login_required, login_user, logout_user
 
 # create blueprint
-wiki = Blueprint('wiki', __name__)
+wiki = Blueprint('wiki', __name__, url_prefix='/wiki')
 
 
 @wiki.route('/')

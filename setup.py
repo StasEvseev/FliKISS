@@ -2,9 +2,9 @@
 # -*- coding : utf-8 -*-
 # vim:set shiftwidth=4 tabstop=4 expandtab textwidth=79:
 
-__author__ = u'TROUVERIE Joachim'
+__author__ = u'Stas Evseev'
 __version__ = u'0.1'
-__appname__ = u'FliKISS'
+__appname__ = u'StasFliKISS'
 
 from setuptools import setup, find_packages
 
@@ -17,12 +17,11 @@ setup(
     version=__version__,
     packages=find_packages(),
     author=__author__,
-    author_email='joachim.trouverie@joacodepel.tk',
-    description='Wiki engine based on Markdown flat files powered by Flask',
+    author_email='stasevseev@gmail.com',
+    description='Wiki engine based on Markdown flat files powered by Flask. Fork from StasEvseev.',
     long_description=open('README.rst').read(),
     install_requires=requirements,
     include_package_data=True,
-    url='http://projects.joacodepel.tk/flikiss/',
     classifiers=[
         "Programming Language :: Python",
         "Development Status :: 4 - Beta",
@@ -33,9 +32,4 @@ setup(
         "Natural Language :: English",
         "Programming Language :: Python :: 2.7",
     ],
-    entry_points={
-        'console_scripts': [
-            'flikiss=flikiss.launcher:run',
-        ],
-    },
 )

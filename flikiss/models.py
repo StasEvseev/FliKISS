@@ -7,7 +7,7 @@
     ~~~~~~~~~~~~~~~~~~~~~~
 """
 
-__author__ = u'TROUVERIE Joachim'
+__author__ = u'Stas Evseev'
 
 import os
 import re
