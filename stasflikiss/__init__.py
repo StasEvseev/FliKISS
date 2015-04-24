@@ -16,7 +16,7 @@ import os
 import os.path as op
 from flask import Flask
 
-from flikiss.views import wiki, render, upload, media, logout
+from stasflikiss.views import wiki, render, upload, media, logout
 
 
 def create_app(config=None):

@@ -4,7 +4,7 @@ nohup.out
 venv/*
 dist/*
 build/*
-/flikiss/media/*
-/flikiss/pages/*
+/stasflikiss/media/*
+/stasflikiss/pages/*
 FliKISS.egg-info/*
 docs/_build/*

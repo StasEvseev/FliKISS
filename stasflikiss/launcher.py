@@ -11,7 +11,7 @@ import os.path as op
 from argparse import ArgumentParser
 from cherrypy import wsgiserver
 
-from flikiss import create_app
+from stasflikiss import create_app
 
 
 def run():

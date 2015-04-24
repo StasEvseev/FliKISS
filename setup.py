@@ -3,7 +3,7 @@
 # vim:set shiftwidth=4 tabstop=4 expandtab textwidth=79:
 
 __author__ = u'Stas Evseev'
-__version__ = u'0.1'
+__version__ = u'0.1.2'
 __appname__ = u'StasFliKISS'
 
 from setuptools import setup, find_packages
@@ -32,4 +32,9 @@ setup(
         "Natural Language :: English",
         "Programming Language :: Python :: 2.7",
     ],
+    entry_points={
+        'console_scripts': [
+            'stasflikiss = stasflikiss.launcher:run',
+        ],
+    },
 )

@@ -15,10 +15,10 @@ from werkzeug import secure_filename
 from flask import (request, render_template, redirect, flash, url_for,
                    Blueprint, current_app, jsonify, send_from_directory)
 
-from flikiss.forms import PageForm, LoginForm
-from flikiss.models import Page
-from flikiss.utils import render_markdown
-from flikiss.login import login_required, login_user, logout_user
+from stasflikiss.forms import PageForm, LoginForm
+from stasflikiss.models import Page
+from stasflikiss.utils import render_markdown
+from stasflikiss.login import login_required, login_user, logout_user
 
 # create blueprint
 wiki = Blueprint('wiki', __name__, url_prefix='/wiki')

@@ -15,7 +15,7 @@ import os.path as op
 from lockfile import LockFile as lock
 from flask import current_app
 
-from flikiss.utils import render_markdown
+from stasflikiss.utils import render_markdown
 
 
 class Page(object):
